@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: blanchedalmond; 
+    margin: 0;   
+}
+
+nav .festival{
+    color: green;
+    margin: 10px;
+}
+nav ul li{
+    list-style: none; 
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+    /* border: 2px solid; */
+    margin: 10px;
+
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    padding: 5px;
+    
+}
+nav li a:hover{
+    text-decoration: none;
+    color:rgb(203, 46, 32);
+    border-radius: 10px; 
+    padding: 5px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 225, 162);
+    padding: 0px 15PX;
+    /* border: 2px solid; */
+}
+
+p{
+    text-align: justify;
+    margin: 20px 10px;
+}
+
+header h1{
+   text-align: center;
+   color: green;
+   margin: .5em auto;
+   
+}
+
+.list{
+    margin: 10px;
+}
+
+/* .fruits-list{
+    margin:10px 50px;
+    
+} */
+
+#fruits{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fruits-card{
+/* border: 2px solid; */
+padding: 10px;
+background-image: linear-gradient(white,#0ea2c0);
+border-radius: 10px;
+
+
+}
+
+
+.image img{
+    width: 80%;
+    height: 80px;
+    padding: 10px;
+
+}
+.content{
+    text-align: center;
+}
+label{
+    margin: 10px 5px;
+}
+
+textarea, input{
+margin: 10px 0px;
+gap: 10px;
+padding: 3px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    background-color: azure;
+    margin: 10px;
+    padding: 10px 20px;
+    width: 40%;
+    border-radius: 10px;  
+}
+
+legend{
+    color: rgb(53, 156, 5);
+    text-align: center;
+    margin: 30px;
+
+}
+
+.submit{
+    border: 2px solid rgb(147, 157, 152);
+    margin-left:40%;
+    padding: 10px;
+    border-radius: 10px;
+   background-color: #e8dddd;
+    box-shadow: 5px 5px 5px #808080;
+    font-weight: bold;
+}
+
+.submit:hover{
+    border: 2px solid rgb(0, 255, 166);
+    margin-left:40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0, 255, 166),rgb(243, 243, 243));
+    box-shadow: 5px 5px 5px rgb(2, 112, 2);
+    font-weight: bold;
+
+}
+
+:required{
+    border: 1px solid red;
+}
+
+
+
